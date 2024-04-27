@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Permanent+Marker&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: hsl(0, 0%, 16%);
+  border-radius: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-logo-title {
+  margin-left: 15px;
+  font-size: 23px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  padding: 15px 0 15px;
+}
+
+.nav-logo-title > a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.navbar-toggle {
+  border: 2px solid white;
+  margin-right: 25px;
+  margin-top: 13px;
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+.navbar-nav {
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.main-text-title {
+  text-align: center;
+  color: rgb(73, 6, 6);
+  font-family: "Permanent Marker", cursive;
+}
+
+.content {
+  background-color: rgb(121, 120, 120);
+  border-radius: 5px;
+  width: auto;
+  height: auto;
+  padding: 10px 18px 10px 18px;
+  margin-top: 30px;
+  margin-left: 25px;
+  text-align: justify;
+}
+
+.row {
+  width: 100%;
+}
+
+.menu-text {
+  color: white;
+}
+
+.menu-title {
+  text-align: center;
+  font-family: "Permanent Marker", cursive;
+  color: rgb(226, 237, 246);
+  margin-bottom: 20px;
+}
