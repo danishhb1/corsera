@@ -1,0 +1,151 @@
+body {
+  background-color: #edefee;
+  font-family: "Oxygen", sans-serif;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+a:link {
+  text-decoration: none;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.container-nav {
+  background-color: #282828;
+  border-radius: 20px;
+}
+
+.menu-nav {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.menu-nav li {
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.menu-nav li a {
+  color: #ffff;
+}
+
+.container-main {
+  display: block;
+}
+
+.main-off {
+  background-image: url(1200.jpg);
+  background-size: cover;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.main-off h2 {
+  color: #ffff;
+  font-size: 25px;
+}
+
+.main-off p {
+  color: #ffff;
+  font-size: 20px;
+}
+
+.main-info {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  padding: 15px;
+}
+
+.main-menu {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-menu h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.new-menu-img {
+  background-image: url(1.jpg);
+  background-size: cover;
+  height: 240px;
+  border-radius: 20px;
+}
+
+.main-menu:hover {
+  border: 3px solid #282828;
+}
+
+.main-book {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-book h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.new-book-img {
+  background-image: url(2.jpg);
+  background-size: cover;
+  height: 240px;
+  border-radius: 20px;
+}
+
+.main-book:hover {
+  border: 3px solid #282828;
+}
+
+.main-Time {
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.main-Time h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+
+.new-time-img {
+  background-image: url(3.jpg);
+  background-size: cover;
+  height: 240px;
+  border-radius: 20px;
+}
+
+.main-Time:hover {
+  border: 3px solid #282828;
+}
+
+.open-time {
+  font-size: 15px;
+  text-align: center;
+  line-height: 22px;
+}
+
+.footer-logo {
+  width: 5%;
+  height: 5%;
+}
+
+.footer-tile {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+}
